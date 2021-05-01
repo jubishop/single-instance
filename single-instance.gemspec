@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'single-instance'
-  spec.version       = '0.1'
+  spec.version       = '0.2'
   spec.summary       = %q(In the sky, it's a class, no it's an instance!)
   spec.authors       = ['Justin Bishop']
   spec.email         = ['jubishop@gmail.com']
