@@ -1,4 +1,4 @@
-require_relative '../lib/single_instance'
+require_relative '../lib/single-instance'
 
 RSpec.describe(SingleInstance) {
   it('lets you call instance directly') {

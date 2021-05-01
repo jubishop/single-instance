@@ -16,5 +16,5 @@ group :development do
   end
 end
 
-# Specify your gem's dependencies in single_instance.gemspec
+# Specify your gem's dependencies in single-instance.gemspec
 gemspec

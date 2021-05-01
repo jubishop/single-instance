@@ -1,21 +1,17 @@
-# single_instance
+# single-instance
 
-[![RSpec Status](https://github.com/jubishop/single_instance/workflows/RSpec/badge.svg)](https://github.com/jubishop/single_instance/actions/workflows/rspec.yml)  [![Rubocop Status](https://github.com/jubishop/single_instance/workflows/Rubocop/badge.svg)](https://github.com/jubishop/single_instance/actions/workflows/rubocop.yml)
+[![RSpec Status](https://github.com/jubishop/single-instance/workflows/RSpec/badge.svg)](https://github.com/jubishop/single-instance/actions/workflows/rspec.yml)  [![Rubocop Status](https://github.com/jubishop/single-instance/workflows/Rubocop/badge.svg)](https://github.com/jubishop/single-instance/actions/workflows/rubocop.yml)
 
 In the sky, it's a class, no it's an instance!
 
 ## Installation
 
-### Global installation
-
-```zsh
-gem install single_instance --source https://www.jubigems.org/
-```
-
 ### In a Gemfile
 
 ```ruby
-gem 'single_instance', source: 'https://www.jubigems.org/'
+source: 'https://www.jubigems.org/' do
+  gem 'single-instance'
+end
 ```
 
 ## Usage
@@ -55,7 +51,7 @@ MyClass.hello # NoMethodError
 
 ## Spec
 
-All examples provided in this README are testably proven in [`spec/`](https://github.com/jubishop/single_instance/tree/master/spec)
+All examples provided in this README are testably proven in [`spec/`](https://github.com/jubishop/single-instance/tree/master/spec)
 
 ## License
 
